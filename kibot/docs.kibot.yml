@@ -1,0 +1,15 @@
+outputs:
+  - name: 'schematic_pdf'
+    comment: 'Generate schematic (PDF)'
+    type: 'pdf_sch_print'
+    dir: 'docs/schematic'
+    options:
+      output: '%f-%i.%x'
+
+  - name: 'schematic_diff_pdf'
+    comment: 'Generate schematic diff (PDF)'
+    type: 'diff'
+    dir: 'docs/schematic'
+    options:
+      pcb: false
+      output: '%f-%i.%x'

@@ -1,0 +1,21 @@
+outputs:
+  - name: 'ibom_html'
+    comment: 'Interactive bill of materials as HTML'
+    type: 'ibom'
+    dir: 'docs/bom'
+
+  - name: 'bom_html'
+    comment: 'Bill of materials as HTML'
+    type: 'bom'
+    dir: 'docs/bom'
+    options:
+      format: 'HTML'
+      count_smd_tht: true
+
+  - name: 'bom_csv'
+    comment: 'Bill of materials as CSV'
+    type: 'bom'
+    dir: 'docs/bom'
+    options:
+      format: 'CSV'
+      count_smd_tht: true

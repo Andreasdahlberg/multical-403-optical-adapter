@@ -1,0 +1,24 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: false
+  ignore_unconnected: false
+
+global:
+  filters:
+  - number: 1007
+  - number: 1015
+  - number: 58
+
+import:
+# docs
+  - file: kibot/bom.kibot.yml
+  - file: kibot/docs.kibot.yml
+# img
+  - file: kibot/render.kibot.yml
+  - file: kibot/draw_oshpark.kibot.yml
+# cad
+  - file: kibot/step.kibot.yml
