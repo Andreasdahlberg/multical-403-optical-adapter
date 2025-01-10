@@ -34,3 +34,6 @@ fp-info-cache
 
 # kibot
 build
+
+# FreeCAD
+*.FCBak
