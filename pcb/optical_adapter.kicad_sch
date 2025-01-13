@@ -963,184 +963,6 @@
 				)
 			)
 		)
-		(symbol "Device:Q_PNP_BCE"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PNP_BCE"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP transistor, base/collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PNP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PNP_BCE_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PNP_BCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2561,6 +2383,94 @@
 			)
 		)
 	)
+	(junction
+		(at 36.83 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2453697b-5291-4ac9-894c-81d575e8a74d")
+	)
+	(junction
+		(at 50.8 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e8adf55-ffef-4105-abf5-84980fcc0921")
+	)
+	(junction
+		(at 22.86 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7346795-891b-4a39-bd0e-b181148ba724")
+	)
+	(wire
+		(pts
+			(xy 29.21 40.64) (xy 22.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1246bf1e-ec3d-436b-aa5a-22a4403939fc")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14191599-e63d-4b49-9593-e236e5c3033a")
+	)
+	(wire
+		(pts
+			(xy 20.32 39.37) (xy 20.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fa1e1e-b9a4-4f1c-a496-22f76300c9e5")
+	)
+	(wire
+		(pts
+			(xy 50.8 41.91) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a867b30-2c60-43d5-b855-f75ae983d8b8")
+	)
+	(wire
+		(pts
+			(xy 22.86 50.8) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366ef142-1f41-43e1-93b6-70cf6715d7db")
+	)
+	(wire
+		(pts
+			(xy 53.34 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410eae60-798a-4625-a466-4c80bddefa75")
+	)
+	(wire
+		(pts
+			(xy 20.32 40.64) (xy 22.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cf1dea-1c93-4074-bb02-22637df71d8e")
+	)
 	(wire
 		(pts
 			(xy 115.57 33.02) (xy 115.57 38.1)
@@ -2570,6 +2480,66 @@
 			(type default)
 		)
 		(uuid "5ac72140-e915-49a9-93c5-e45369177482")
+	)
+	(wire
+		(pts
+			(xy 22.86 49.53) (xy 22.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a59ba3-6d32-47ca-b490-79b8d430cf24")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79335b27-8388-4d92-af78-f0e5fe943392")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e6c0c4-7fe2-4d6a-8f62-2185294e55ca")
+	)
+	(wire
+		(pts
+			(xy 53.34 39.37) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950108c7-6f20-4bbe-9852-bb4358cb1904")
+	)
+	(wire
+		(pts
+			(xy 22.86 40.64) (xy 22.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaca6476-763e-455d-9407-0ab8870db4d2")
+	)
+	(wire
+		(pts
+			(xy 44.45 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b9f8a1-c178-432e-b428-aff30b285b5b")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
@@ -2816,6 +2786,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be8365c-6c16-4486-a503-b59ca4c2e6e3")
+		(property "Reference" "#PWR05"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6441b38c-5ae8-4485-8b82-bce3c740f071")
+		)
+		(instances
+			(project "optical_adapter"
+				(path "/eed9174b-005f-42ed-94b9-b0e600055621"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC817")
 		(at 62.23 24.13 0)
 		(unit 1)
@@ -2893,16 +2929,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 27.94 0)
+		(at 22.86 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "614ea04f-cee6-4e8b-9d52-b965041cda18")
 		(property "Reference" "C1"
-			(at 82.55 26.6699 0)
+			(at 26.67 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +2946,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 82.55 29.2099 0)
+			(at 26.67 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +2955,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 79.7052 31.75 0)
+			(at 23.8252 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +2964,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 27.94 0)
+			(at 22.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +2973,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 27.94 0)
+			(at 22.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +2982,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 78.74 27.94 0)
+			(at 22.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,6 +3000,72 @@
 			(project ""
 				(path "/eed9174b-005f-42ed-94b9-b0e600055621"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66722f40-1c1e-44a5-8645-08df98abdb6e")
+		(property "Reference" "#PWR04"
+			(at 36.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58fffc5d-db02-4416-a34a-93b46ae45d48")
+		)
+		(instances
+			(project "optical_adapter"
+				(path "/eed9174b-005f-42ed-94b9-b0e600055621"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3150,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 21.59 0)
+		(at 50.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3058,7 +3159,7 @@
 		(fields_autoplaced yes)
 		(uuid "709e192a-cf65-41a0-a158-1c163ff9b2a8")
 		(property "Reference" "C2"
-			(at 109.22 20.3199 0)
+			(at 54.61 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3168,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 109.22 22.8599 0)
+			(at 54.61 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3177,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 106.3752 25.4 0)
+			(at 51.7652 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 21.59 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3195,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 21.59 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3204,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 105.41 21.59 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,74 +3383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 50.8 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d122951-e9ce-4803-a43b-62ba35bbb697")
-		(property "Reference" "D3"
-			(at 49.2125 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 49.2125 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5760bb7e-0256-470d-b016-dc4b73ef573f")
-		)
-		(pin "1"
-			(uuid "da9e6f5e-443d-4646-8826-ef114fd81063")
-		)
-		(instances
-			(project ""
-				(path "/eed9174b-005f-42ed-94b9-b0e600055621"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 162.56 25.4 0)
 		(unit 1)
@@ -3422,7 +3455,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM1117MP-3.3")
-		(at 100.33 33.02 0)
+		(at 36.83 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3431,7 +3464,7 @@
 		(fields_autoplaced yes)
 		(uuid "97997db2-bcfa-45a8-bf4f-b02d5ada7a95")
 		(property "Reference" "U1"
-			(at 100.33 26.67 0)
+			(at 36.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3472,7 @@
 			)
 		)
 		(property "Value" "LM1117MP-3.3"
-			(at 100.33 29.21 0)
+			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3480,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 100.33 33.02 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 100.33 33.02 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3498,7 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
-			(at 100.33 33.02 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3827,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC857")
-		(at 77.47 44.45 0)
+		(at 81.28 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3803,7 +3836,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3dada55-acf8-441d-824e-67cdd49c857d")
 		(property "Reference" "Q3"
-			(at 82.55 43.1799 0)
+			(at 86.36 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3845,7 @@
 			)
 		)
 		(property "Value" "BC857"
-			(at 82.55 45.7199 0)
+			(at 86.36 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3854,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 82.55 46.355 0)
+			(at 86.36 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
-			(at 77.47 44.45 0)
+			(at 81.28 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3875,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, PNP Transistor, SOT-23"
-			(at 77.47 44.45 0)
+			(at 81.28 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3884,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 77.47 44.45 0)
+			(at 81.28 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,35 +4122,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BCE")
-		(at 39.37 95.25 0)
+		(lib_id "power:+5V")
+		(at 20.32 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3b7e56d-4695-4702-abaf-906e59aabdf3")
-		(property "Reference" "Q5"
-			(at 44.45 93.9799 0)
+		(uuid "e503b59f-73c8-4cb6-aa6f-5f08601f5fb9")
+		(property "Reference" "#PWR06"
+			(at 20.32 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Q_PNP_BCE"
-			(at 44.45 96.5199 0)
+		(property "Value" "+5V"
+			(at 20.32 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 92.71 0)
+			(at 20.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,8 +4157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 39.37 95.25 0)
+		(property "Datasheet" ""
+			(at 20.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,28 +4166,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP transistor, base/collector/emitter"
-			(at 39.37 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "9e313ec5-f7a7-4bab-a6ff-c22caf0c3f52")
 		)
 		(pin "1"
-			(uuid "077e8a9a-db2d-4251-ae98-5a65c95696f0")
-		)
-		(pin "3"
-			(uuid "bb889a66-0a2f-4be4-be8b-a7a4b6585636")
+			(uuid "936d922e-27c3-4257-b140-664c9b1b1e62")
 		)
 		(instances
-			(project ""
+			(project "optical_adapter"
 				(path "/eed9174b-005f-42ed-94b9-b0e600055621"
-					(reference "Q5")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
