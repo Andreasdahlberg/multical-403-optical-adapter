@@ -53,7 +53,7 @@ jobs:
         run: |
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             oshpark_purple_png_top oshpark_purple_png_bottom render_3d_30deg blender_3d_30deg
-      - uses: actions/upload-artifact@v3.1.1
+      - uses: actions/upload-artifact@v4
         if: ${{success()}}
         with:
           name: ${{github.event.repository.name}}_img
@@ -73,7 +73,7 @@ jobs:
         run: |
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             ibom_html bom_html bom_csv schematic_pdf
-      - uses: actions/upload-artifact@v3.1.1
+      - uses: actions/upload-artifact@v4
         if: ${{success()}}
         with:
           name: ${{github.event.repository.name}}_docs
