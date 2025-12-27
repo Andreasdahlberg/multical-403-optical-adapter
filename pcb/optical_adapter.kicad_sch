@@ -3375,7 +3375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -3395,6 +3395,24 @@
 		)
 		(property "LCSC" ""
 			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW1206220RJNEA"
+			(at 113.03 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-220-E3 "
+			(at 113.03 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -3539,6 +3557,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW120691R0JNEA"
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-91-E3"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -3663,7 +3699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/68000.pdf"
 			(at 86.36 22.86 0)
 			(effects
 				(font
@@ -3683,6 +3719,24 @@
 		)
 		(property "LCSC" ""
 			(at 86.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "68001-406HLF "
+			(at 86.36 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "649-68001-406HLF "
+			(at 86.36 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/101/1/BC846ALT1-D.PDF"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -3911,6 +3965,24 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "BC847CLT1G"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "863-BC847CLT1G "
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -4171,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 134.62 33.02 0)
 			(effects
 				(font
@@ -4190,6 +4262,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 134.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW12060000ZSTC"
+			(at 134.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW12060000ZSTC "
 			(at 134.62 33.02 0)
 			(effects
 				(font
@@ -4250,7 +4340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150120AS75000.pdf"
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -4270,6 +4360,24 @@
 		)
 		(property "LCSC" ""
 			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "150120AS75000"
+			(at 127 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "710-150120AS75000 "
+			(at 127 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?40080"
 			(at 21.59 52.07 0)
 			(effects
 				(font
@@ -4347,6 +4455,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 21.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "TR3A106K010C1000"
+			(at 21.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "74-TR3A106K010C1000"
 			(at 21.59 52.07 0)
 			(effects
 				(font
@@ -4473,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTR3216P3BT.pdf"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -4493,6 +4619,24 @@
 		)
 		(property "LCSC" ""
 			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "APTR3216P3BT"
+			(at 66.04 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "604-APTR3216P3BT"
+			(at 66.04 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?40080"
 			(at 49.53 52.07 0)
 			(effects
 				(font
@@ -4571,6 +4715,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "TR3A106K010C1000"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "74-TR3A106K010C1000"
 			(at 49.53 52.07 0)
 			(effects
 				(font
@@ -4631,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -4650,6 +4812,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW120610K0JNEA"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-10K-E3 "
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -4710,7 +4890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 80.01 81.28 0)
 			(effects
 				(font
@@ -4729,6 +4909,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 80.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW120610K0JNEA"
+			(at 80.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-10K-E3 "
 			(at 80.01 81.28 0)
 			(effects
 				(font
@@ -4922,7 +5120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/101/1/BC846ALT1-D.PDF"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -4933,6 +5131,24 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "BC847CLT1G"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "863-BC847CLT1G "
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -4998,7 +5214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/70/1/Infineon_IRLML2060_DataSheet_v01_01_EN.pdf"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -5018,6 +5234,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "IRLML2060TRPBF "
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "942-IRLML2060TRPBF "
 			(at 128.27 63.5 0)
 			(effects
 				(font
@@ -5097,6 +5331,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFRNO" "LM1117MP-3.3/NOPB "
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "926-LM1117MP-3.3NOPB "
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0cca9b5-9be9-4683-bfa4-9f58175682f5")
 		)
@@ -5152,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20008/dcrcw.pdf"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -5171,6 +5423,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW12060000ZSTC"
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW12060000ZSTC "
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -5231,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -5250,6 +5520,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW12065R60JNEA"
+			(at 59.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-5.6-E3 "
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -5310,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -5329,6 +5617,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW1206100RJNEA"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-100-E3 "
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -5389,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.vishay.com/doc?20035"
 			(at 54.61 88.9 0)
 			(effects
 				(font
@@ -5408,6 +5714,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW120639K0JNEA "
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-39K-E3 "
 			(at 54.61 88.9 0)
 			(effects
 				(font
@@ -5468,7 +5792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTR3216F3C.pdf"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -5488,6 +5812,24 @@
 		)
 		(property "LCSC" ""
 			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "APTR3216F3C"
+			(at 40.64 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "604-APTR3216F3C "
+			(at 40.64 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/101/1/BC856ALT1-D.PDF"
 			(at 43.18 82.55 0)
 			(effects
 				(font
@@ -5569,6 +5911,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 43.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "BC857CLT1G "
+			(at 43.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "863-BC857CLT1G "
 			(at 43.18 82.55 0)
 			(effects
 				(font
@@ -5632,7 +5992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 66.04 102.87 0)
 			(effects
 				(font
@@ -5651,6 +6011,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW120615K0JNEA"
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-15K-E3 "
 			(at 66.04 102.87 0)
 			(effects
 				(font
@@ -5975,7 +6353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150120GS75000.pdf"
 			(at 59.69 45.72 0)
 			(effects
 				(font
@@ -5995,6 +6373,24 @@
 		)
 		(property "LCSC" ""
 			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "150120GS75000"
+			(at 59.69 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "710-150120GS75000 "
+			(at 59.69 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -6073,6 +6469,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFRNO" "CRCW120610K0JNEA"
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSERNO" "71-CRCW1206J-10K-E3 "
 			(at 91.44 81.28 0)
 			(effects
 				(font
