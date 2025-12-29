@@ -86,30 +86,30 @@
 	)
 	(fp_line
 		(start 5.588 3.556)
-		(end 7.112 3.556)
+		(end 7.17 3.556)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "3cf69c40-ea4a-404c-ae21-423458b868b3")
 	)
 	(fp_line
-		(start 7.112 1.524)
+		(start 7.17 1.524)
 		(end 5.588 1.524)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "a5898343-8d3d-49f7-af72-5597357993e6")
 	)
 	(fp_line
-		(start 7.112 3.556)
-		(end 7.112 1.524)
+		(start 7.17 3.556)
+		(end 7.17 1.524)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "73fcb267-709e-4117-a31a-df7d0a1f6b04")

@@ -4585,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 2.54 2.54 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4598,64 +4598,12 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 2.54 2.54 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78db017e-a9a6-4755-9d7a-98d482f525db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd0ac21e-657e-4deb-a086-80de6f7162c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MFRNO" "APTR3216F3C"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f1dc8a3-71dc-4744-864c-6610e144626d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUSERNO" "604-APTR3216F3C "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6be0b505-edab-40a4-83b6-faf44f55a6e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dedad211-2631-4792-afbb-722081d3d03a")
 			(effects
 				(font
 					(size 1 1)
@@ -4669,14 +4617,14 @@
 		(sheetfile "optical_adapter.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 7.112 1.524)
+			(start 7.17 1.524)
 			(end 5.588 1.524)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d91c67f1-1efb-4faa-9cd3-6047e0f4d648")
+			(uuid "5f29d0cc-2db3-4494-8a28-a8db9628ac1a")
 		)
 		(fp_line
 			(start 3.048 1.524)
@@ -4686,7 +4634,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "44db3348-817c-426c-bd7c-ca001d70c33e")
+			(uuid "d7794cde-d656-4ef4-b2be-4b0ff2208495")
 		)
 		(fp_line
 			(start 1.524 1.524)
@@ -4696,27 +4644,27 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "804ec930-07bb-4505-aaa5-ce3914355b5c")
+			(uuid "9fbe8a91-59ab-4953-9669-0138eca57c38")
 		)
 		(fp_line
-			(start 7.112 3.556)
-			(end 7.112 1.524)
+			(start 7.17 3.556)
+			(end 7.17 1.524)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4eeb1203-a5d3-486b-8258-1777f8be2903")
+			(uuid "de8b943f-74e2-4ebd-8493-2de231330458")
 		)
 		(fp_line
 			(start 5.588 3.556)
-			(end 7.112 3.556)
+			(end 7.17 3.556)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26cce23c-fa55-41cd-88a0-42e2be59fc28")
+			(uuid "f872b70a-89b9-4777-8087-5a302014eac1")
 		)
 		(fp_line
 			(start 1.524 3.556)
@@ -4726,7 +4674,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fe7d4c63-1441-48cb-949b-04322abcce4a")
+			(uuid "6e78184c-bc7e-4060-880b-085bbb12bee8")
 		)
 		(fp_circle
 			(center 3.048 1.27)
@@ -4737,7 +4685,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "d9855dcb-6d48-4d57-8482-92ab997687c5")
+			(uuid "fb569c15-313a-4a81-a4f0-d8ca9778c18c")
 		)
 		(fp_rect
 			(start 3.302 1.39)
@@ -4748,7 +4696,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "a32740e0-d437-4a9b-b39b-4451000697de")
+			(uuid "68c2ff78-8277-4d47-b9a7-cfa7405d69bf")
 		)
 		(fp_rect
 			(start 1.27 1.27)
@@ -4759,7 +4707,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f84f6922-345a-43ee-aeca-8d037d5caaa5")
+			(uuid "9188dfa5-802e-43f2-8960-729e8ae129a4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 2.54 7.62 90)
@@ -5776,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTR3216P3BT.pdf"
+		(property "Datasheet" ""
 			(at 2.54 2.54 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5789,51 +5737,12 @@
 				)
 			)
 		)
-		(property "Description" "Photodiode"
+		(property "Description" ""
 			(at 2.54 2.54 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b3a2bb5-9e46-4b35-ae6a-be870e3c4dcb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dc0c0ca-0fa4-439b-b22d-183d7810bdae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MFRNO" "APTR3216P3BT"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edac3a35-ac29-4230-936d-5b9c36face8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUSERNO" "604-APTR3216P3BT"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6c7e1ff-3be2-49f5-8c0c-50210a3d66c8")
 			(effects
 				(font
 					(size 1 1)
@@ -5853,27 +5762,27 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4e36a800-984c-4625-855b-70fbfa67b57b")
+			(uuid "b8733760-cd75-4e4e-beb1-4c4da323917c")
 		)
 		(fp_line
 			(start 5.588 3.556)
-			(end 7.112 3.556)
+			(end 7.17 3.556)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "941bf3d4-fbbb-4af8-9032-88bfe0f5c9a5")
+			(uuid "f486d213-e3e7-492f-9fcb-0b42c57c5771")
 		)
 		(fp_line
-			(start 7.112 3.556)
-			(end 7.112 1.524)
+			(start 7.17 3.556)
+			(end 7.17 1.524)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d544121-7ac6-43d5-8060-c791bc01f02e")
+			(uuid "f77c8771-7f01-4ad5-a87a-50f68b5ab7db")
 		)
 		(fp_line
 			(start 1.524 1.524)
@@ -5883,7 +5792,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "980b15b9-72fd-4550-8bfc-be792d97b295")
+			(uuid "8c69be93-04d9-43da-9ccf-f0a26cc04ff0")
 		)
 		(fp_line
 			(start 3.048 1.524)
@@ -5893,17 +5802,17 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "04025294-b133-45aa-8cb2-0f7f4d9daa1f")
+			(uuid "9ee6a6a2-78c5-41b4-ba94-e2da6c109fd3")
 		)
 		(fp_line
-			(start 7.112 1.524)
+			(start 7.17 1.524)
 			(end 5.588 1.524)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6b22507c-8843-4a75-9d8b-449855146ff5")
+			(uuid "e6bd3bac-37b4-4354-bf11-781d200def16")
 		)
 		(fp_circle
 			(center 3.048 1.27)
@@ -5914,7 +5823,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "f78da7a9-183f-43d6-99bb-b05fcba81caa")
+			(uuid "a5c4e002-a769-4220-b33a-dbc508873777")
 		)
 		(fp_rect
 			(start 3.302 1.39)
@@ -5925,7 +5834,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "03843ed7-1534-47a5-8066-59a8d3ddab1d")
+			(uuid "8e4ec94f-7ff1-493d-8f6b-905086b3d18e")
 		)
 		(fp_rect
 			(start 1.27 1.27)
@@ -5936,7 +5845,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "cbc0f1a5-9663-438b-8365-f84a59f78ae6")
+			(uuid "61ceef4e-92b6-4fe2-a27c-c64f9dd59d9a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 2.54 7.62 270)
