@@ -2583,6 +2583,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "~18 Ohm"
+		(exclude_from_sim no)
+		(at 143.256 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0265bece-046a-444a-9811-08a33a268191")
+	)
 	(junction
 		(at 66.04 73.66)
 		(diameter 0)
@@ -3618,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSERNO" "71-CRCW1206J-220-E3 "
+		(property "MOUSERNO" "71-CRCW1206J-220-E3"
 			(at 113.03 63.5 90)
 			(effects
 				(font
@@ -3727,7 +3737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91"
+		(property "Value" "150"
 			(at 129.54 50.7999 0)
 			(effects
 				(font
@@ -3772,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFRNO" "CRCW120691R0JNEA"
+		(property "MFRNO" "CRCW1206150RJNEA"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -3781,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSERNO" "71-CRCW1206J-91-E3"
+		(property "MOUSERNO" "71-CRCW1206J-150-E3"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -4513,15 +4523,15 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 127 36.83 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6122d304-495f-41d5-92f9-e6d38305e3bc")
 		(property "Reference" "D3"
-			(at 129.54 33.9724 90)
+			(at 129.54 39.6876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4540,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 129.54 36.5124 90)
+			(at 129.54 37.1476 90)
 			(effects
 				(font
 					(size 1.27 1.27)
