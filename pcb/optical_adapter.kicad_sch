@@ -6703,7 +6703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/308/1/APTR3216F3C.pdf"
 			(at 40.64 113.03 0)
 			(effects
 				(font
