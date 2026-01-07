@@ -11,7 +11,13 @@
 11. [Troubleshooting](#troubleshooting)
 
 ## Introduction
+
+
 This project provides an optical adapter designed for the Kamstrup Multical 403 heat meater, allowing you to interface with it via serial communication.
+
+**⚠️ WARNING: This project is work in progress and currently untested. Use at your own risk.**
+
+![PCB](doc/images/optical_adapter-3D_blender_001.png)
 
 ## Features
 * On demand activation of the Multical optical interface to reduce power consumption.
