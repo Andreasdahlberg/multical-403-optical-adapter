@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|108976600|96164400|40ff1578-e7e9-41ba-9d26-67cd86856a3c|56ce1b12-ce89-4624-969b-670830efadf4",
+          ""
+        ],
+        [
+          "hole_clearance|108976600|96164400|6e47fcc1-98ae-4ac0-b04a-42b0f7ec57a5|56ce1b12-ce89-4624-969b-670830efadf4",
+          ""
+        ],
+        [
+          "hole_clearance|117288600|96164400|0096bbd5-d9ee-4469-98ce-f9e4745fd269|cb3f564c-ab36-48c2-8f6f-cf491c04b4cc",
+          ""
+        ],
+        [
+          "hole_clearance|117288600|96164400|87271d26-e233-420d-8f62-6411882ad404|cb3f564c-ab36-48c2-8f6f-cf491c04b4cc",
+          ""
+        ],
+        [
+          "hole_clearance|118626600|96164400|09da560b-1042-451e-90da-ff960f539e6c|96eb99ba-f7e9-4d43-92ef-97bb1ed68795",
+          ""
+        ],
+        [
+          "hole_clearance|118626600|96164400|7029af6e-79b4-4614-ab41-705eb7a62fed|96eb99ba-f7e9-4d43-92ef-97bb1ed68795",
+          ""
+        ],
+        [
+          "shorting_items|109203600|97091400|7220e89f-c0a4-4d9d-ac37-17f87fc0722c|cc393ddd-2678-425b-9ddd-35bca636a876",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -126,7 +155,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.35,
+        "min_copper_edge_clearance": 0.381,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.127,
