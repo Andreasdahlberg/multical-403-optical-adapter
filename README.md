@@ -26,6 +26,12 @@ This project provides an optical adapter designed for the Kamstrup Multical 403 
 
 ## Assembly Instructions
 
+🚧 Build instructions will be added here soon.
+
+[BOM](https://andreasdahlberg.github.io/multical-403-optical-adapter/bom/optical_adapter-bom.html)
+
+[Interactive BOM](https://andreasdahlberg.github.io/multical-403-optical-adapter/bom/optical_adapter-ibom.html)
+
 ## Software
 
 ## Usage
