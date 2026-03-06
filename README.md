@@ -12,7 +12,6 @@
 
 ## Introduction
 
-
 This project provides an optical adapter designed for the Kamstrup Multical 403 heat meater, allowing you to interface with it via serial communication.
 
 **⚠️ WARNING: This project is work in progress and currently untested. Use at your own risk.**
@@ -37,3 +36,7 @@ This project provides an optical adapter designed for the Kamstrup Multical 403 
 ## Usage
 
 ## Troubleshooting
+
+## License
+
+This project is released as **Open Source Hardware** under the [CERN Open Hardware License v2](LICENSE). You are free to use, modify, manufacture, and distribute this hardware, provided you comply with the terms of the license.
