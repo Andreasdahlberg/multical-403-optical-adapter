@@ -2034,7 +2034,7 @@
 			(net 9 "+3V3")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "ee044739-7dbe-4623-8101-0e84b7234a8b")
+			(uuid "29666f09-ddbe-4b1b-b0e2-982ffeec71f5")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -8482,7 +8482,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(uuid "96eb99ba-f7e9-4d43-92ef-97bb1ed68795")
+			(uuid "ac5ceb14-c665-431f-9125-0069810a768b")
 		)
 		(pad "0" thru_hole circle
 			(at 8.981 0 180)
@@ -8492,7 +8492,7 @@
 			(remove_unused_layers yes)
 			(keep_end_layers yes)
 			(zone_layer_connections)
-			(uuid "96eb99ba-f7e9-4d43-92ef-97bb1ed68795")
+			(uuid "fe551d57-dc9c-4313-b42b-fad165e3b089")
 		)
 		(pad "1" smd roundrect
 			(at 9.135 0.927 180)
