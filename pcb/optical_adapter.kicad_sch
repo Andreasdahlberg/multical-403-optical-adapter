@@ -6614,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 54.61 88.9 0)
 			(effects
 				(font
