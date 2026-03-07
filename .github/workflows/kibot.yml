@@ -86,7 +86,7 @@ jobs:
   deploy-pages:
     runs-on: ubuntu-latest
     needs: [docs]
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && github.ref_type == 'branch'
     permissions:
       pages: write
       id-token: write
