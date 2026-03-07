@@ -683,5 +683,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "VERSION": "v0.0.0"
+  }
 }
