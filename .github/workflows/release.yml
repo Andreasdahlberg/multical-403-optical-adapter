@@ -19,6 +19,10 @@ jobs:
             pcb/optical_adapter.kicad_pro > tmp.kicad_pro \
             && mv tmp.kicad_pro pcb/optical_adapter.kicad_pro
 
+      - name: Set version in PCB file
+        run: |
+          sed -i 's/\${VERSION}/${{ github.ref_name }}/g' pcb/optical_adapter.kicad_pcb
+
       - name: Package KiCad project files
         run: |
           zip -r ${{github.event.repository.name}}-kicad-${{github.ref_name}}.zip pcb/ \
