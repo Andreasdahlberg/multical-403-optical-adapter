@@ -48,6 +48,8 @@ ensure there are no manufacturing defects:
     > Tip: Start with the power supply components (voltage regulator, capacitors, and resistors) to
     > ensure the board is powered correctly before soldering the remaining components.
 
+1. Close the J1 solder bridge, it should only be open for testing purposes.
+
 ### Mounting
 
 1. Connect a 3.3V FTDI USB cable to the pin header, ensuring the correct orientation. The board is
