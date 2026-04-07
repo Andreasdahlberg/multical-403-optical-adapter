@@ -7282,7 +7282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150120GS75000.pdf"
 			(at 59.69 45.72 0)
 			(effects
 				(font
