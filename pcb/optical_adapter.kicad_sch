@@ -6402,7 +6402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6"
+		(property "Value" "10"
 			(at 62.23 55.8799 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFRNO" "CRCW12065R60JNEA"
+		(property "MFRNO" " CRCW120610R0JNEA"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -6456,7 +6456,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSERNO" "71-CRCW1206J-5.6-E3 "
+		(property "MOUSERNO" "71-CRCW1206J-10-E3"
 			(at 59.69 54.61 0)
 			(effects
 				(font
